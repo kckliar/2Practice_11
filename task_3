@@ -1,0 +1,42 @@
+class Sheep: Farm_Animal {
+private:
+
+public:
+    Sheep(std::string name): Farm_Animal(name) {}
+
+    void get_action(std::string object) {
+        std::cout << "Взаимодействие " << name << " с " << object << std::endl;
+    }
+};
+class Horse: Farm_Animal {
+private:
+
+public:
+    Horse(std::string name): Farm_Animal(name) {}
+
+    void get_action(std::string object) {
+        std::cout << "Взаимодействие " << name << " с " << object << std::endl;
+    }
+};
+class Cow: Farm_Animal {
+    private:
+
+    public:
+        Cow(std::string name): Farm_Animal(name) {}
+
+        void get_action(std::string object) {
+            std::cout << "Взаимодействие " << name << " с " << object << std::endl;
+        }
+};
+
+class Pig: Farm_Animal {
+private:
+
+public:
+    Pig(std::string name): Farm_Animal(name) {}
+
+    void get_action(std::string object) {
+        std::cout << "Взаимодействие " << name << " с " << object << std::endl;
+    }
+};
+
