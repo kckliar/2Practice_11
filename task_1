@@ -1,0 +1,22 @@
+#include <iostream>
+
+
+class Animal {
+protected:
+    std::string name;
+    std::string feature;
+    std::string sound;
+public:
+    
+    Animal(std::string name): name(name), feature(""), sound("") {}
+
+   
+    void get_sound() {
+        std::cout << sound << std::endl;
+    }
+
+    void get_action() {
+        std::cout << feature << std::endl;
+    }
+
+};
